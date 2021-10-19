@@ -1,1 +1,1 @@
-# gb-python
+# GB Python Labs
