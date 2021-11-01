@@ -8,12 +8,12 @@
 #* Решить задачу под пунктом b, не создавая новый список.
 
 pow3_list = []
-for i in range (1, 1001):
+for i in range (1, 1001, 2):
     pow3_list.append(i ** 3)
 for step in [1, 2]:
     add_value = 0
     if step == 2:
-        add_value = 17;
+        add_value = 17
     total_sum = 0
     for i in range (len(pow3_list)):
         pow3_list[i] += add_value
